@@ -1,0 +1,13 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: install ansible deps
+      apt:
+        name:
+          - python3-pip
+        state: present
+        update_cache: yes
+    - name: "Include appsembler_docker_ce_role"
+      include_role:
+        name: "appsembler_docker_ce_role"
