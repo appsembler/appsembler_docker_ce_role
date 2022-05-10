@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- added support for Ubuntu 22.04
+
 ### Added
 ### Changed
 ### Removed
