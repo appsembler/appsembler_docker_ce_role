@@ -5,9 +5,18 @@ docker_pkg: "docker-ce"
 docker_release_versions:
   xenial: "18.03.0~ce-0~ubuntu"
   focal: "5:20.10.5~3-0~ubuntu-focal"
+  jammy: "5:20.10.14~3-0~ubuntu-jammy"
 docker_version: "{{ docker_release_versions[ansible_distribution_release] }}"
-docker_python_version: "3.4.1"
-docker_compose_python_version: "1.21.2"
+docker_python_versions:
+  xenial: "3.4.1"
+  focal: "3.4.1"
+  jammy: "5.0.3"
+docker_python_version: "{{ docker_python_versions[ansible_distribution_release] }}"
+docker_compose_versions:
+  xenial: "1.21.2"
+  focal: "1.21.2"
+  jammy: "1.29.2"
+docker_compose_python_version: "{{ docker_compose_versions[ansible_distribution_release] }}"
 docker_apt_key: |
   -----BEGIN PGP PUBLIC KEY BLOCK-----
 
