@@ -6,15 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- added support for Ubuntu 22.04
-
 ### Added
 ### Changed
 ### Removed
+
+## [v1.1.0] - 2022-11-23
+
+### Added
+- added support for Ubuntu 22.04
 
 ## [v1.0.0] - 2022-03-16
 ### Added
 - initial version.
 
-[Unreleased]: https://github.com/appsembler/appsembler_docker_ce_role/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/appsembler/appsembler_docker_ce_role/compare/v1.1.0...HEAD
+[v1.1.0]: https://github.com/appsembler/appsembler_docker_ce_role/releases/tag/v1.0.0..v1.1.0
 [v1.0.0]: https://github.com/appsembler/appsembler_docker_ce_role/releases/tag/v1.0.0
